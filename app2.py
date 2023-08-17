@@ -22,8 +22,6 @@ lsites.append({'label': 'All Sites', 'value': 'All Sites'})
 for site in uniquelaunchsites:
  lsites.append({'label': site, 'value': site})
 
-
-
 app.layout = html.Div(
         children=[html.H1('SpaceX Launch Records Dashboard',
         style={'textAlign': 'center', 'color': 'Green', 'font-size': 40, 'font-family':'Montserrat'}),
