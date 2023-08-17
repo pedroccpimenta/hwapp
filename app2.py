@@ -27,7 +27,9 @@ for site in uniquelaunchsites:
 app.layout = html.Div(
         children=[html.H1('SpaceX Launch Records Dashboard',
         style={'textAlign': 'center', 'color': 'Green', 'font-size': 40, 'font-family':'Montserrat'}),
-        
+
+            html.P("Pedro CC Pimenta, Agosto 2023", style={'textAlign':'center'}),
+            
               dcc.Dropdown(id='site_dropdown',options=lsites,placeholder='Select a Launch Site here', searchable = True , value = 'All Sites'),
                         html.Br(),
 
